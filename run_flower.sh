@@ -1,3 +1,3 @@
 #!/bin/bash
 
-flower --broker=amqp://guest:guest@${RABBITMQ_SERVICE_SERVICE_HOST:localhost}:5672//
+flower --broker=redis://guest@redis-service.redis.svc.cluster.local:6379/0

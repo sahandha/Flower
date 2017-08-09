@@ -4,6 +4,7 @@ MAINTAINER Sahand Hariri sahandha@gmail.com
 
 
 RUN pip install flower
+RUN pip install redis
 
 # Make sure we expose port 5555 so that we can connect to it
 EXPOSE 5555
